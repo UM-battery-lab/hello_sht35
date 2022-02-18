@@ -30,8 +30,8 @@ add_executable(hello_sht35 main.cpp Seeed_SHT35.cpp)
 pico_set_program_name(hello_sht35 "hello_sht35")
 pico_set_program_version(hello_sht35 "0.1")
 
-pico_enable_stdio_uart(hello_sht35 1)
-pico_enable_stdio_usb(hello_sht35 0)
+pico_enable_stdio_uart(hello_sht35 0)
+pico_enable_stdio_usb(hello_sht35 1)
 
 # Add libraries
 target_link_libraries(hello_sht35 pico_stdlib hardware_i2c)

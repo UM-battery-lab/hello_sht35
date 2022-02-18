@@ -4,9 +4,9 @@
 #include "hardware/i2c.h"
 #include "Seeed_SHT35.h"
 
-#define I2C_BUS i2c0
-#define SDA_PIN 4
-#define SCL_PIN 5
+#define I2C_BUS i2c1
+#define SDA_PIN 6
+#define SCL_PIN 7
 
 using namespace std;
 
